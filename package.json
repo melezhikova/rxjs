@@ -1,0 +1,39 @@
+{
+  "name": "rxjs_back",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever -a server.js",
+    "watch": "forever -a -w server.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^3.0.4",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melezhikova/rxjs_back.git"
+  },
+  "author": "ludmila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melezhikova/rxjs_back/issues"
+  },
+  "homepage": "https://github.com/melezhikova/rxjs_back#readme"
+}
